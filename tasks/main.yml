@@ -1,0 +1,8 @@
+---
+- name: Install Collectd
+  apt: pkg=collectd={{ collectd_version }} state=present
+
+- name: Configure Collectd
+  template: src=collectd.conf.j2 dest=/etc/collectd/collectd.conf
+  notify:
+    - Restart Collectd
