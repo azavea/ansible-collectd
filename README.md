@@ -5,7 +5,6 @@ An Ansible role for installing [Collectd](http://collectd.org).
 ## Role Variables
 
 - `collectd_version` - Collectd version
-- `collectd_hostname` - Collectd hostname (default: `localhost`)
 - `collectd_interval` - Collectd metrics collection interval (default: `10`)
 - `collectd_load_plugins` - Collectd plugins to load (see [defaults](./defaults/main.yml]))
 
