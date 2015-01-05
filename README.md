@@ -6,7 +6,7 @@ An Ansible role for installing [Collectd](http://collectd.org).
 
 - `collectd_version` - Collectd version
 - `collectd_interval` - Collectd metrics collection interval (default: `10`)
-- `collectd_load_plugins` - Collectd plugins to load (see [defaults](./defaults/main.yml]))
+- `collectd_load_plugins` - Collectd plugins to load (see [defaults](./defaults/main.yml))
 
 ## Example Playbook
 
