@@ -5,6 +5,7 @@ An Ansible role for installing [Collectd](http://collectd.org).
 ## Role Variables
 
 - `collectd_version` - Collectd version
+- `collectd_install_recommends` - A flag passed to the `install_recommends` option of the Ansible `apt` module (default: `True`).
 - `collectd_interval` - Collectd metrics collection interval (default: `10`)
 - `collectd_load_plugins` - Collectd plugins to load (see [defaults](./defaults/main.yml))
 
