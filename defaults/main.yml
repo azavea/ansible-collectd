@@ -1,4 +1,5 @@
 ---
 collectd_version: "5.4.0-3ubuntu2"
+collectd_install_recommends: True
 collectd_interval: 10
 collectd_load_plugins: []
