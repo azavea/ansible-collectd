@@ -3,6 +3,7 @@
   apt: pkg=collectd={{ collectd_version }}
        install_recommends={{ collectd_install_recommends }}
        state=present
+       update_cache={{ collectd_update_cache }}
 
 - name: Configure Collectd
   template: src=collectd.conf.j2 dest=/etc/collectd/collectd.conf
